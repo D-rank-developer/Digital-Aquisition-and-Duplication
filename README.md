@@ -178,22 +178,22 @@ This allows the examiner to review file names, timestamps, and file properties w
 ### Adding the forensic image as evidence
 This step loads the previously acquired image back into FTK Imager for preview and structured examination.
 
-![FTK add evidence source](images/ftk-add-evidence-source.png)
+![FTK add evidence source](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/image1.png)
 
 ### Browsing the image contents
 The evidence tree shows the `Thumbdrive.E01` image, the FAT32 volume, and folders such as `Family Pix`. This demonstrates how the forensic image can be explored without touching the original USB device.
 
-![FTK browse Family Pix](images/ftk-browse-family-pix.png)
+![FTK browse Family Pix](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/image2.png)
 
 ### Reviewing a file inside the image
 Here, `My Sister.jpg` is selected and previewed inside FTK Imager. This is useful for beginner-level evidence inspection and media review.
 
-![FTK preview file](images/ftk-browse-family-pix.png)
+![FTK preview file](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/image3.png)
 
 ### Inspecting file properties
 The properties window shows file metadata such as size, dimensions, and created/modified dates. This is an example of extracting file-level evidence from an acquired image.
 
-![FTK file properties](images/ftk-file-properties-mysister.png)
+![FTK file properties](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/image4.png)
 
 ---
 
@@ -253,12 +253,12 @@ Autopsy turns a raw forensic image into an organised investigation workspace. It
 ### `NTUSER.DAT` examination
 `NTUSER.DAT` is a Windows user hive that can reveal user preferences, software settings, and traces of user activity. In the lab, this file is highlighted because it is a valuable artifact during Windows investigations.
 
-![Autopsy NTUSER.DAT registry view](images/autopsy-ntuser-dat-registry-view.png)
+![Autopsy NTUSER.DAT registry view](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/Screenshot%20(185).png)
 
 ### Report generated from `NTUSER.DAT`
 Autopsy also shows generated outputs linked to modules such as `RecentActivity`, including report paths related to `RegRipper` output for `NTUSER.DAT`.
 
-![Autopsy reports pane RegRipper](images/autopsy-reports-pane-reg-ripper.png)
+![Autopsy reports pane RegRipper](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/Screenshot%20(184).png)
 
 ---
 
@@ -267,17 +267,17 @@ Autopsy also shows generated outputs linked to modules such as `RecentActivity`,
 ### Images grouped by extension
 Autopsy can group files by extension, making it easy to review media artifacts without manually browsing every folder path.
 
-![Autopsy images tagged view](images/autopsy-images-tagged-view.png)
+![Autopsy images tagged view](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/Screenshot%20(186).png)
 
 ### Thumbnail review of image evidence
 Thumbnail view helps quickly identify visual evidence and spot relevant media content.
 
-![Autopsy images thumbnail view](images/autopsy-images-thumbnail-view.png)
+![Autopsy images thumbnail view]()
 
 ### Additional thumbnail review with selected image set
 This screenshot further demonstrates how Autopsy supports visual inspection of image files discovered inside the forensic image.
 
-![Autopsy images thumbnail view selected](images/autopsy-images-thumbnail-view-selected.png)
+![Autopsy images thumbnail view selected](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/Screenshot%20(187).png)
 
 ---
 
@@ -298,7 +298,7 @@ In this case, the **URLs** list is selected to identify web-related activity.
 ### Keyword search targeting `NTUSER.dat`
 This screenshot shows a search configured for `NTUSER.dat`, demonstrating how Autopsy can be used to locate specific high-value artifacts by name or pattern.
 
-![Autopsy keyword search NTUSER](images/autopsy-keyword-search-ntuser.png)
+![Autopsy keyword search NTUSER](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/Screenshot%20(183).png)
 
 ### Suspicious items identified by Autopsy
 Autopsy highlights suspicious items based on analysis results, hit patterns, and indexed artifacts. This does not automatically mean malicious activity, but it gives the investigator leads to review.
@@ -312,22 +312,22 @@ Autopsy highlights suspicious items based on analysis results, hit patterns, and
 ### Choosing tagged results for reporting
 The report wizard allows the examiner to export either all results or only tagged results. In this project, the report focuses on **tagged evidence** for a cleaner investigative summary.
 
-![Autopsy generate report tagged results](images/autopsy-generate-report-tagged-results.png)
+![Autopsy generate report tagged results](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/imageeee.png)
 
 ### Selecting HTML report output
 The HTML module is selected so the report can be viewed easily in a browser and shared as part of the lab deliverable.
 
-![Autopsy report module HTML](images/autopsy-report-module-html.png)
+![Autopsy report module HTML]()
 
 ### Report generation in progress
 Autopsy generates thumbnails and compiles tagged artifacts into the final report output.
 
-![Autopsy report generation progress](images/autopsy-report-generation-progress.png)
+![Autopsy report generation progress](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/image6.png)
 
 ### Generated HTML forensic report
 The final HTML report includes case details, image information, and tagged evidence selected during the investigation.
 
-![Autopsy HTML report output](images/autopsy-html-report-output.png)
+![Autopsy HTML report output](https://github.com/D-rank-developer/Digital-Aquisition-and-Duplication/blob/7d84d5ca2e52c0203de5f36b9d8dc80ffcc3e1d7/image%20assets/image9.png)
 
 ---
 
